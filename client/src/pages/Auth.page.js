@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { Container, Card } from 'react-bootstrap'
-import { REGISTRATION_ROUTE, LOGIN_ROUTE, ARTICLE_ROUTE } from '../components/AppRouter'
+import { REGISTRATION_ROUTE, LOGIN_ROUTE, MAIN_ROUTE } from '../components/AppRouter'
 import { Button, Input, Form, Space } from 'antd'
 import { NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
@@ -38,7 +38,7 @@ const Auth = () => {
             }
 
             dispatch(setUser(data.user))
-            navigate(ARTICLE_ROUTE)
+            navigate(MAIN_ROUTE)
 
         } catch (e) {
             notifyError({

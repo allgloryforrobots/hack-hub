@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
-/* body {
-  overflow-y: visible;
-} */
+body {
+  background-color: var(--black-100);
+  color: var(--white);
+  background-image: url("./assets/images/img-noise-200x200.png");
+  background-position: 0 0;
+  background-size: 200px 200px;
+}

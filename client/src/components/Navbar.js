@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 import { Button } from 'antd'
 import { useNavigate } from 'react-router-dom'
 
-import { MAIN_ROUTE, ADMIN_ROUTE, CABINET_ROUTE, LOGIN_ROUTE, ARTICLE_ROUTE } from './AppRouter'
+import { MAIN_ROUTE, ADMIN_ROUTE, CABINET_ROUTE, LOGIN_ROUTE } from './AppRouter'
 
 const NavbarComponent = () => {
 
@@ -24,13 +24,7 @@ const NavbarComponent = () => {
         <Navbar bg="light" data-bs-theme="light">
 
             <Container>
-                <Navbar.Brand style={{ paddingBottom: '8px' }} as={NavLink} to={MAIN_ROUTE}>Долгожители</Navbar.Brand>
-
-                <Nav className="me-auto">
-                    <Nav.Link href={ARTICLE_ROUTE}>Работа</Nav.Link>
-                    <Nav.Link href={ARTICLE_ROUTE}>Здоровье</Nav.Link>
-                    <Nav.Link href={ARTICLE_ROUTE}>Хобби</Nav.Link>
-                </Nav>
+                <Navbar.Brand style={{ paddingBottom: '8px' }} as={NavLink} to={MAIN_ROUTE}>Huck hub</Navbar.Brand>
 
                 <Nav className="ml-auto">
                     {
