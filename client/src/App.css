@@ -1,0 +1,8 @@
+.image-tool__image, .image-tool__caption {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* body {
+  overflow-y: visible;
+} */
