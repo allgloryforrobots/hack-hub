@@ -1,6 +1,10 @@
-.image-tool__image, .image-tool__caption {
-  max-width: 650px;
-  margin: 0 auto;
+:root {
+  --contrast: #00f0ff;
+}
+
+@font-face {
+  font-family: 'Blender-Pro-Book';
+  src: url(./assets/fonts/Blender-Pro-Book.otf) format('otf');
 }
 
 body {
@@ -9,4 +13,14 @@ body {
   background-image: url("./assets/images/img-noise-200x200.png");
   background-position: 0 0;
   background-size: 200px 200px;
+  font-family: Blender-Pro-Book, sans-serif;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  color: var(--contrast);
 }

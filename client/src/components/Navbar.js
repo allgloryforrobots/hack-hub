@@ -21,10 +21,10 @@ const NavbarComponent = () => {
     }
 
     return (
-        <Navbar bg="light" data-bs-theme="light">
+        <Navbar data-bs-theme="light">
 
             <Container>
-                <Navbar.Brand style={{ paddingBottom: '8px' }} as={NavLink} to={MAIN_ROUTE}>Huck hub</Navbar.Brand>
+                <Navbar.Brand style={{ paddingBottom: '8px' }} as={NavLink} to={MAIN_ROUTE}><h4>Huck hub</h4></Navbar.Brand>
 
                 <Nav className="ml-auto">
                     {
