@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react'
-import { Container, Card } from 'react-bootstrap'
 import { REGISTRATION_ROUTE, LOGIN_ROUTE, MAIN_ROUTE } from '../components/AppRouter'
 import { Button, Input, Form, Space } from 'antd'
 import { NavLink, useLocation, useNavigate } from 'react-router-dom'
@@ -99,12 +98,12 @@ const Auth = () => {
     }
 
     return (
-        <Container
-            className='d-flex justify-content-center align-items-center'
+        <div
+            className=''
             style={{ height: window.innerHeight - 59 }}
         >
 
-            <Card style={{ width: 600 }} className='p-5'>
+            <div style={{ width: 600 }} >
                 <h2 className='m-auto mb-4'>{isLogin ? 'Авторизация' : 'Регистрация'}</h2>
 
                 <Form form={form} layout="vertical">
@@ -188,9 +187,9 @@ const Auth = () => {
                         }
                     </Form.Item>
                 </Form>
-            </Card>
+            </div>
 
-        </Container>
+        </div>
     )
 }
 

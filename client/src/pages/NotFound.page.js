@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+
 
 const NotFound = () => {
     return (
-        <Container>
+        <div>
             NotFound
-        </Container>
+        </div>
     )
 }
 

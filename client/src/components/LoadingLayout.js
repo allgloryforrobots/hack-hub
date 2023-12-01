@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { Spin } from 'antd'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { check } from '../http/userAPI'
@@ -29,7 +28,7 @@ export default function LoadingLayout() {
     }, [])
   
     if (loading) {
-        return <Spin style={{ position: 'fixed', top: '50%', left: '50%' }} size="large" />
+        return <div style={{ position: 'fixed', top: '50%', left: '50%' }}>Загрузка</div>
     }
   
     return (

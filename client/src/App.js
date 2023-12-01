@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { store } from './store'
 import { Provider } from 'react-redux'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css'
 import LoadingLayout from './components/LoadingLayout'

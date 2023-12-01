@@ -1,11 +1,10 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
 
 const Admin = () => {
     return (
-        <Container>
+        <div>
             Admin
-        </Container>
+        </div>
     )
 }
 
